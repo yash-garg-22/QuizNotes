@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultParent{
+  background-color: rgb(21, 108, 163);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  text-align: center
+}
+
+.score h1{
+    color: white;
+}
+
+.score h5{
+    font-size: 1rem;
+    color: white;
+}
+
+.return{
+    color: white;
+}
+
+.return :hover{
+    color: wheat;
+    cursor: pointer
+}
