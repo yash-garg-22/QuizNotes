@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(pexels-dana-tentis-118658-370799.jpg)
+}
+
+.child1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    color: #D3D3D3
+}
+
+#label1{
+    color: white;
+    padding: 10px;
+}
+
+.child2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#label2{
+    color: white;
+    padding: 10px;
+}
+
+.child3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.child4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.child5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.child5 a{
+    color: white;
+    font-weight: bolder;
+}
+
+.child5 a:hover{
+    color: red;
+}

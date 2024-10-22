@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh; /* Full viewport height */
+    background-image: url('bg1.jpg'); /* Replace with your background image */
+    background-size: cover; /* Scales the image to cover the container */
+    background-position: center; /* Centers the background image */
+    display: flex; /* Allows positioning of inner elements */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.child2{
+    color: white;
+    font-size: 2rem;
+}
+
+.child3{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 45%;
+}
+
+#button{
+    font-size: 1rem;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.navigation{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   color: white;
+   background-color: wheat;
+   font-size: 2rem;
+   height: 15vh;
+   align-items: center;
+   position: sticky;
+   top: 0;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+}
+
+.quiz a{
+    text-decoration: none;
+    color: white;
+}
+
+.topP a{
+    text-decoration: none;
+    color: white;
+}
+
+.notes a{
+    text-decoration: none;
+    color: white;
+}
+
+.quiz a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.home a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.notes a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.topP a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.child4{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.child5{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.gridParent{
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.flex1{
+    width: 300px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+.flexchild1 img{
+    width: 100%
+}
+
+.flexchild1 img{
+    height: 225px;
+}
+
+.flexchild2{
+    text-align: center;
+}
+
+.flexchild4{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.fbutton1:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fbutton2:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fbutton3:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fbutton4:hover{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+.note{
+    font-size: 4vh;
+}
+
+.notesImage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.img1{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img2{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img3{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img4{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img5{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img6{
+    transition: 3px ease-out;
+    overflow: hidden;
+}
+
+.img1 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img2 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img3 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img4 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img5 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img6 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img1 img:hover{
+    transform: scale(1.1);
+}
+
+.img2 img:hover{
+    transform: scale(1.1);
+}
+
+.img3 img:hover{
+    transform: scale(1.1);
+}
+
+.img4 img:hover{
+    transform: scale(1.1);
+}
+
+.img5 img:hover{
+    transform: scale(1.1);
+}
+
+.img6 img:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+}
+
+.footer h1{
+    height: 10vh;
+    color: white;
+}
+#twiter a{
+    text-decoration: none;
+    color: wheat;
+}
+
+@media screen and (max-width: 600px){
+    
+    .navigation{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 300px){
+    
+    .navigation{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .topP a{
+        font-size: 4vh;
+    }
+
+    .notes a{
+        font-size: 4vh;
+    }
+
+    .quiz a{
+        font-size: 4vh;
+    }
+
+    .home a{
+        font-size: 4vh;
+    }
+
+    .child2 h1{
+        font-size: 8vh;
+    }
+  }
+

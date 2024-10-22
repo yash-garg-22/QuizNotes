@@ -1,0 +1,30 @@
+body{
+    background-color: purple;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+  background-color: rgb(21, 108, 163);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  text-align: center;
+}
+
+.child1 h5{
+    font-size: 2vw;
+}
+
+#next{
+    font-size: 1rem;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
